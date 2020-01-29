@@ -8,6 +8,9 @@
         <meta name="Description" content="Página do Medeiros">
         <meta name="keywords" content="html5, tec">
         <style>
+            body {
+                background-color: lightgray;
+            }
             #s1 {
                 background-image: url(ProjetoCSS-inicio/imagens/bg-3.jpg);
                 color: white;
@@ -15,18 +18,11 @@
                 font-family: sans-serif;
                 background-position: right bottom;
             }
-            
-            #s2 {
-                padding: 25px 100px;
-            }
-            #a1 {
-
-            }
-            #a2 {
+            #s1-a2 {
                 padding: 300px 0px;
                 text-align: center;
             }
-            .uls1 {
+            .s1-a1-li {
                 list-style: none;
                 float: right;
                 padding: 12px 25px;
@@ -34,69 +30,96 @@
                 border-width: thin;
                 margin: 10px;
             }
-            #a3 {
-                text-align: center;
-                padding: 30px 150px;
-                float: center;
-            }
-            
-            #p1 {
+            #s1-a2-p1 {
                 display: inline;
                 font-size: 56px;
 
             }
-            
-            #p2 {                
+            #s1-a3 {
+                text-align: center;
+                padding: 30px 150px;
+                float: center;
+            }
+            #s2 {
+                padding: 25px 100px;
+                background-color: lightgray;
+            }
+            #s1-a3-p2 {                
                 display: inline;
                 background-color: rgba(0,0,0,0.4);
                 border-bottom-style: solid;
                 padding: 15px;
                 border-bottom-color: white;  
              }
-            #ula4 {
-                text-align: center;
+            #s2-a4-ul {
+                background-color: white;
             }
-            #uls2 {
-                background: url("/ProjetoCSS-inicio/imagens/card_01.png") no-repeat left bottom;
-                /*list-style: none;*/
-                padding: 10px 25px;
-                border-style: solid;
+            .s2-a4-ul-li {
+                padding: 15px;
                 border-width: thin;
-                margin: auto;
                 display: inline-block;
-                height: 169px;
-                width: 250px;
+                font-family: Arial;
                 
-                /*list-style-image: url("/ProjetoCSS-inicio/imagens/card_01.png")*/
+            }
+            .s2-a4-ul-li-p {
+                background-color: gray;
+                background-position: center;
+                margin: auto;
+                box-sizing: border-box;
+                color: white;
+            }
+            #s3 {
+                padding: 0px 100px;
+            }
+            #s3-a5-ul {
+                background-color: white;
+                padding: 10px;
+            }
+            #s3-a5-ul-h1 {
+                background-color: rgb(236, 236, 236);
+                border-bottom: gray solid;
+                font: 36px Helvetica;
+                
+            }
+            .s3-a5-ul-p {
+                font-family: Helvetica;
             }
         </style>
     </head>
     <body>
         <section id="s1">
-            <article id="a1">        
+            <article id="s1-a1">        
                     <ul>
-                        <li class="uls1">CONTATO</li>       
-                        <li class="uls1">QUEM SOU EU</li>
-                        <li class="uls1">INÍCIO</li>
+                        <li class="s1-a1-li">CONTATO</li>       
+                        <li class="s1-a1-li">QUEM SOU EU</li>
+                        <li class="s1-a1-li">INÍCIO</li>
                     </ul>
             </article>
-            <article id="a2">
-                <p id="p1">CURSO WEB FUNDAMENTOS</p> 
+            <article id="s1-a2">
+                <p id="s1-a2-p1">CURSO WEB FUNDAMENTOS</p> 
             </article>
-            <article id="a3">
-                <p id="p2">Aprenda CSS, HTML E Javascript</p> 
+            <article id="s1-a3">
+                <p id="s1-a3-p2">Aprenda CSS, HTML E Javascript</p> 
             </article>
         </section>
         <section id="s2">
-            <article id="a4">
-                <header>
-                    <ul id="ula4">
-                        <li id="uls2">SELETORES</li>
-                        <li id="uls2">POSICIONAMENTO</li>
-                        <li id="uls2">FONTES E ÍCONES</li>
-                    </ul>
-                </header>    
+            <article id="s2-a4">
+                <ul id="s2-a4-ul">
+                    <li class="s2-a4-ul-li"><img alt="SELETORES" src="ProjetoCSS-inicio/imagens/card_01.png"/><p class="s2-a4-ul-li-p">SELETORES</p></li>
+                    <li class="s2-a4-ul-li"><img alt="POSICIONAMENTO" src="ProjetoCSS-inicio/imagens/card_02.jpg"/><p class="s2-a4-ul-li-p">POSICIONAMENTO</p></li>
+                    <li class="s2-a4-ul-li"><img alt="FONTES" src="ProjetoCSS-inicio/imagens/card_03.jpg"/><p class="s2-a4-ul-li-p">FONTES E ÍCONES</p></li>
+                </ul>
             </article>
         </section>
+        <section id="s3">
+            <article id="s3-a5">
+                <ul id="s3-a5-ul">
+                    <h1 id="s3-a5-ul-h1"><p>titulo</p></h1>
+                    <p class="s3-a5-ul-p">primeiro parágrafo do exemplo</p>
+                    <p class="s3-a5-ul-p">segundo parágrafo do exemplo</p>
+                </ul>
+            </article>
+        </section>
+            
     </body>
 </html>
