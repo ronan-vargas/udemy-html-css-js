@@ -1,0 +1,95 @@
+body {
+    font-family: arial, sans-serif;
+    margin: 0px;
+    background-color: #ccc;
+}
+
+nav {
+    
+}
+
+.hero {
+    background-image: url("../imagens/bg-3.jpg");
+    height: 500px;
+    background-position: right center;
+    background-size: cover;
+}
+.hero-content {
+    text-align: center;
+    color: white;
+    margin-top: 200px;
+}
+
+.hero-content h1 {
+    text-transform: uppercase;
+    font-size: 46px;
+    text-shadow: 3px 3px 2px #333;
+    margin-bottom: 180px;
+}
+
+.hero-content p {
+    background-color: rgba(0,0,0,0.4);
+    border-bottom-style: solid;
+    padding: 15px;
+    border-bottom-color: white;
+    display: inline;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+.content-section {
+    background-color: white;
+    padding: 10px 40px 10px 40px;
+    margin-top: 15px;
+}
+
+.content-section h2 {
+    border-bottom: gray solid;
+    background-color: rgb(236, 236, 236);
+    padding: 20px 10px 10px 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: gray;
+    margin: 10px 0px 0px;
+    color: white;
+    text-shadow: 3px 3px 2px #333;
+    padding: 20px 0px;
+}
+
+.card {
+    display: inline-block;
+    font-family: Arial;
+    background-color: gray;
+    color: white;
+    text-transform: uppercase;
+    margin-right: 7px;    
+}
+
+.card p {
+    margin: 10px;
+}
+
+ul {
+   display: inline;
+}
+
+li {
+   list-style: none;
+   float: right;
+   padding: 12px 25px;
+   border-style: solid;
+   border-width: thin;
+   margin: 10px;
+   color: white;    
+   text-transform: uppercase;
+}
+
+a:link {
+   color: white;
+   text-decoration: none;
+}
