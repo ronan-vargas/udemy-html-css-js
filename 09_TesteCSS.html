@@ -29,6 +29,7 @@
                 border-style: solid;
                 border-width: thin;
                 margin: 10px;
+                background-color: rgba(0,0,0,0.2)
             }
             #s1-a2-p1 {
                 display: inline;
@@ -52,20 +53,34 @@
              }
             #s2-a4-ul {
                 background-color: white;
+                overflow: auto;
+                padding: 10px;
+                margin-top: 15px;
             }
             .s2-a4-ul-li {
                 padding: 15px;
                 border-width: thin;
-                display: inline-block;
                 font-family: Arial;
-                
+                float: left;
+                box-sizing: border-box;
+                width: 32%;
             }
+            
+            .card-1, .card-2 {
+                margin-right: 2%;
+            }
+            
+            .s2-a4-ul-li img {
+                width: 100%;
+                display: block;
+                
+            }            
             .s2-a4-ul-li-p {
                 background-color: gray;
                 background-position: center;
                 margin: auto;
-                box-sizing: border-box;
                 color: white;
+                padding: 15px;
             }
             #s3 {
                 padding: 0px 100px;
@@ -113,9 +128,9 @@
         <section id="s2">
             <article id="s2-a4">
                 <ul id="s2-a4-ul">
-                    <li class="s2-a4-ul-li"><img alt="SELETORES" src="ProjetoCSS-inicio/imagens/card_01.png"/><p class="s2-a4-ul-li-p">SELETORES</p></li>
-                    <li class="s2-a4-ul-li"><img alt="POSICIONAMENTO" src="ProjetoCSS-inicio/imagens/card_02.jpg"/><p class="s2-a4-ul-li-p">POSICIONAMENTO</p></li>
-                    <li class="s2-a4-ul-li"><img alt="FONTES" src="ProjetoCSS-inicio/imagens/card_03.jpg"/><p class="s2-a4-ul-li-p">FONTES E ÍCONES</p></li>
+                    <li class="s2-a4-ul-li card-1"><img alt="SELETORES" src="ProjetoCSS-inicio/imagens/card_01.png"/><p class="s2-a4-ul-li-p">SELETORES</p></li>
+                    <li class="s2-a4-ul-li card-2"><img alt="POSICIONAMENTO" src="ProjetoCSS-inicio/imagens/card_02.jpg"/><p class="s2-a4-ul-li-p">POSICIONAMENTO</p></li>
+                    <li class="s2-a4-ul-li card-3"><img alt="FONTES" src="ProjetoCSS-inicio/imagens/card_03.jpg"/><p class="s2-a4-ul-li-p">FONTES E ÍCONES</p></li>
                 </ul>
             </article>
         </section>
